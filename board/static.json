@@ -1,0 +1,587 @@
+{
+			board : {
+				scale : 0.25,
+				clip : {
+					h : -1,
+					v : -1
+				},
+				defaultColor : '#ffffff'
+			},
+			hexes : [{
+				"id" : "hex_0_0_0",
+				"transform" : "translate(400 100) rotate(30)"
+			}, {
+				"id" : "hex_1_0_1",
+				"transform" : "translate(664 100) rotate(30)"
+			}, {
+				"id" : "hex_2_0_2",
+				"transform" : "translate(928 100) rotate(30)"
+			}, {
+				"id" : "hex_3_0_3",
+				"transform" : "translate(1192 100) rotate(30)"
+			}, {
+				"id" : "hex_4_0_4",
+				"transform" : "translate(1456 100) rotate(30)"
+			}, {
+				"id" : "hex_5_0_5",
+				"transform" : "translate(1720 100) rotate(30)"
+			}, {
+				"id" : "hex_6_0_6",
+				"transform" : "translate(1984 100) rotate(30)"
+			}, {
+				"id" : "hex_7_0_7",
+				"transform" : "translate(2248 100) rotate(30)"
+			}, {
+				"id" : "hex_8_0_8",
+				"transform" : "translate(2512 100) rotate(30)"
+			}, {
+				"id" : "hex_9_0_9",
+				"transform" : "translate(2776 100) rotate(30)"
+			}, {
+				"id" : "hex_10_0_10",
+				"transform" : "translate(3040 100) rotate(30)"
+			}, {
+				"id" : "hex_11_0_11",
+				"transform" : "translate(3304 100) rotate(30)"
+			}, {
+				"id" : "hex_12_0_12",
+				"transform" : "translate(3568 100) rotate(30)"
+			}, {
+				"id" : "hex_13_0_13",
+				"transform" : "translate(3832 100) rotate(30)"
+			}, {
+				"id" : "hex_14_0_14",
+				"transform" : "translate(4096 100) rotate(30)"
+			}, {
+				"id" : "hex_15_0_15",
+				"transform" : "translate(4360 100) rotate(30)"
+			}, {
+				"id" : "hex_16_1_0",
+				"transform" : "translate(532 324) rotate(30)"
+			}, {
+				"id" : "hex_17_1_1",
+				"transform" : "translate(796 324) rotate(30)"
+			}, {
+				"id" : "hex_18_1_2",
+				"transform" : "translate(1060 324) rotate(30)"
+			}, {
+				"id" : "hex_19_1_3",
+				"transform" : "translate(1324 324) rotate(30)"
+			}, {
+				"id" : "hex_20_1_4",
+				"transform" : "translate(1588 324) rotate(30)"
+			}, {
+				"id" : "hex_21_1_5",
+				"transform" : "translate(1852 324) rotate(30)"
+			}, {
+				"id" : "hex_22_1_6",
+				"transform" : "translate(2116 324) rotate(30)"
+			}, {
+				"id" : "hex_23_1_7",
+				"transform" : "translate(2380 324) rotate(30)"
+			}, {
+				"id" : "hex_24_1_8",
+				"transform" : "translate(2644 324) rotate(30)"
+			}, {
+				"id" : "hex_25_1_9",
+				"transform" : "translate(2908 324) rotate(30)"
+			}, {
+				"id" : "hex_26_1_10",
+				"transform" : "translate(3172 324) rotate(30)"
+			}, {
+				"id" : "hex_27_1_11",
+				"transform" : "translate(3436 324) rotate(30)"
+			}, {
+				"id" : "hex_28_1_12",
+				"transform" : "translate(3700 324) rotate(30)"
+			}, {
+				"id" : "hex_29_1_13",
+				"transform" : "translate(3964 324) rotate(30)"
+			}, {
+				"id" : "hex_30_1_14",
+				"transform" : "translate(4228 324) rotate(30)"
+			}, {
+				"id" : "hex_31_1_15",
+				"transform" : "translate(4492 324) rotate(30)"
+			}, {
+				"id" : "hex_32_2_0",
+				"transform" : "translate(400 548) rotate(30)"
+			}, {
+				"id" : "hex_33_2_1",
+				"transform" : "translate(664 548) rotate(30)"
+			}, {
+				"id" : "hex_34_2_2",
+				"transform" : "translate(928 548) rotate(30)"
+			}, {
+				"id" : "hex_35_2_3",
+				"transform" : "translate(1192 548) rotate(30)"
+			}, {
+				"id" : "hex_36_2_4",
+				"transform" : "translate(1456 548) rotate(30)"
+			}, {
+				"id" : "hex_37_2_5",
+				"transform" : "translate(1720 548) rotate(30)"
+			}, {
+				"id" : "hex_38_2_6",
+				"transform" : "translate(1984 548) rotate(30)"
+			}, {
+				"id" : "hex_39_2_7",
+				"transform" : "translate(2248 548) rotate(30)"
+			}, {
+				"id" : "hex_40_2_8",
+				"transform" : "translate(2512 548) rotate(30)"
+			}, {
+				"id" : "hex_41_2_9",
+				"transform" : "translate(2776 548) rotate(30)"
+			}, {
+				"id" : "hex_42_2_10",
+				"transform" : "translate(3040 548) rotate(30)"
+			}, {
+				"id" : "hex_43_2_11",
+				"transform" : "translate(3304 548) rotate(30)"
+			}, {
+				"id" : "hex_44_2_12",
+				"transform" : "translate(3568 548) rotate(30)"
+			}, {
+				"id" : "hex_45_2_13",
+				"transform" : "translate(3832 548) rotate(30)"
+			}, {
+				"id" : "hex_46_2_14",
+				"transform" : "translate(4096 548) rotate(30)"
+			}, {
+				"id" : "hex_47_2_15",
+				"transform" : "translate(4360 548) rotate(30)"
+			}, {
+				"id" : "hex_48_3_0",
+				"transform" : "translate(532 772) rotate(30)"
+			}, {
+				"id" : "hex_49_3_1",
+				"transform" : "translate(796 772) rotate(30)"
+			}, {
+				"id" : "hex_50_3_2",
+				"transform" : "translate(1060 772) rotate(30)"
+			}, {
+				"id" : "hex_51_3_3",
+				"transform" : "translate(1324 772) rotate(30)"
+			}, {
+				"id" : "hex_52_3_4",
+				"transform" : "translate(1588 772) rotate(30)"
+			}, {
+				"id" : "hex_53_3_5",
+				"transform" : "translate(1852 772) rotate(30)"
+			}, {
+				"id" : "hex_54_3_6",
+				"transform" : "translate(2116 772) rotate(30)"
+			}, {
+				"id" : "hex_55_3_7",
+				"transform" : "translate(2380 772) rotate(30)"
+			}, {
+				"id" : "hex_56_3_8",
+				"transform" : "translate(2644 772) rotate(30)"
+			}, {
+				"id" : "hex_57_3_9",
+				"transform" : "translate(2908 772) rotate(30)"
+			}, {
+				"id" : "hex_58_3_10",
+				"transform" : "translate(3172 772) rotate(30)"
+			}, {
+				"id" : "hex_59_3_11",
+				"transform" : "translate(3436 772) rotate(30)"
+			}, {
+				"id" : "hex_60_3_12",
+				"transform" : "translate(3700 772) rotate(30)"
+			}, {
+				"id" : "hex_61_3_13",
+				"transform" : "translate(3964 772) rotate(30)"
+			}, {
+				"id" : "hex_62_3_14",
+				"transform" : "translate(4228 772) rotate(30)"
+			}, {
+				"id" : "hex_63_3_15",
+				"transform" : "translate(4492 772) rotate(30)"
+			}, {
+				"id" : "hex_64_4_0",
+				"transform" : "translate(400 996) rotate(30)"
+			}, {
+				"id" : "hex_65_4_1",
+				"transform" : "translate(664 996) rotate(30)"
+			}, {
+				"id" : "hex_66_4_2",
+				"transform" : "translate(928 996) rotate(30)"
+			}, {
+				"id" : "hex_67_4_3",
+				"transform" : "translate(1192 996) rotate(30)"
+			}, {
+				"id" : "hex_68_4_4",
+				"transform" : "translate(1456 996) rotate(30)"
+			}, {
+				"id" : "hex_69_4_5",
+				"transform" : "translate(1720 996) rotate(30)"
+			}, {
+				"id" : "hex_70_4_6",
+				"transform" : "translate(1984 996) rotate(30)"
+			}, {
+				"id" : "hex_71_4_7",
+				"transform" : "translate(2248 996) rotate(30)"
+			}, {
+				"id" : "hex_72_4_8",
+				"transform" : "translate(2512 996) rotate(30)"
+			}, {
+				"id" : "hex_73_4_9",
+				"transform" : "translate(2776 996) rotate(30)"
+			}, {
+				"id" : "hex_74_4_10",
+				"transform" : "translate(3040 996) rotate(30)"
+			}, {
+				"id" : "hex_75_4_11",
+				"transform" : "translate(3304 996) rotate(30)"
+			}, {
+				"id" : "hex_76_4_12",
+				"transform" : "translate(3568 996) rotate(30)"
+			}, {
+				"id" : "hex_77_4_13",
+				"transform" : "translate(3832 996) rotate(30)"
+			}, {
+				"id" : "hex_78_4_14",
+				"transform" : "translate(4096 996) rotate(30)"
+			}, {
+				"id" : "hex_79_4_15",
+				"transform" : "translate(4360 996) rotate(30)"
+			}, {
+				"id" : "hex_80_5_0",
+				"transform" : "translate(532 1220) rotate(30)"
+			}, {
+				"id" : "hex_81_5_1",
+				"transform" : "translate(796 1220) rotate(30)"
+			}, {
+				"id" : "hex_82_5_2",
+				"transform" : "translate(1060 1220) rotate(30)"
+			}, {
+				"id" : "hex_83_5_3",
+				"transform" : "translate(1324 1220) rotate(30)"
+			}, {
+				"id" : "hex_84_5_4",
+				"transform" : "translate(1588 1220) rotate(30)"
+			}, {
+				"id" : "hex_85_5_5",
+				"transform" : "translate(1852 1220) rotate(30)"
+			}, {
+				"id" : "hex_86_5_6",
+				"transform" : "translate(2116 1220) rotate(30)"
+			}, {
+				"id" : "hex_87_5_7",
+				"transform" : "translate(2380 1220) rotate(30)"
+			}, {
+				"id" : "hex_88_5_8",
+				"transform" : "translate(2644 1220) rotate(30)"
+			}, {
+				"id" : "hex_89_5_9",
+				"transform" : "translate(2908 1220) rotate(30)"
+			}, {
+				"id" : "hex_90_5_10",
+				"transform" : "translate(3172 1220) rotate(30)"
+			}, {
+				"id" : "hex_91_5_11",
+				"transform" : "translate(3436 1220) rotate(30)"
+			}, {
+				"id" : "hex_92_5_12",
+				"transform" : "translate(3700 1220) rotate(30)"
+			}, {
+				"id" : "hex_93_5_13",
+				"transform" : "translate(3964 1220) rotate(30)"
+			}, {
+				"id" : "hex_94_5_14",
+				"transform" : "translate(4228 1220) rotate(30)"
+			}, {
+				"id" : "hex_95_5_15",
+				"transform" : "translate(4492 1220) rotate(30)"
+			}, {
+				"id" : "hex_96_6_0",
+				"transform" : "translate(400 1444) rotate(30)"
+			}, {
+				"id" : "hex_97_6_1",
+				"transform" : "translate(664 1444) rotate(30)"
+			}, {
+				"id" : "hex_98_6_2",
+				"transform" : "translate(928 1444) rotate(30)"
+			}, {
+				"id" : "hex_99_6_3",
+				"transform" : "translate(1192 1444) rotate(30)"
+			}, {
+				"id" : "hex_100_6_4",
+				"transform" : "translate(1456 1444) rotate(30)"
+			}, {
+				"id" : "hex_101_6_5",
+				"transform" : "translate(1720 1444) rotate(30)"
+			}, {
+				"id" : "hex_102_6_6",
+				"transform" : "translate(1984 1444) rotate(30)"
+			}, {
+				"id" : "hex_103_6_7",
+				"transform" : "translate(2248 1444) rotate(30)"
+			}, {
+				"id" : "hex_104_6_8",
+				"transform" : "translate(2512 1444) rotate(30)"
+			}, {
+				"id" : "hex_105_6_9",
+				"transform" : "translate(2776 1444) rotate(30)"
+			}, {
+				"id" : "hex_106_6_10",
+				"transform" : "translate(3040 1444) rotate(30)"
+			}, {
+				"id" : "hex_107_6_11",
+				"transform" : "translate(3304 1444) rotate(30)"
+			}, {
+				"id" : "hex_108_6_12",
+				"transform" : "translate(3568 1444) rotate(30)"
+			}, {
+				"id" : "hex_109_6_13",
+				"transform" : "translate(3832 1444) rotate(30)"
+			}, {
+				"id" : "hex_110_6_14",
+				"transform" : "translate(4096 1444) rotate(30)"
+			}, {
+				"id" : "hex_111_6_15",
+				"transform" : "translate(4360 1444) rotate(30)"
+			}, {
+				"id" : "hex_112_7_0",
+				"transform" : "translate(532 1668) rotate(30)"
+			}, {
+				"id" : "hex_113_7_1",
+				"transform" : "translate(796 1668) rotate(30)"
+			}, {
+				"id" : "hex_114_7_2",
+				"transform" : "translate(1060 1668) rotate(30)"
+			}, {
+				"id" : "hex_115_7_3",
+				"transform" : "translate(1324 1668) rotate(30)"
+			}, {
+				"id" : "hex_116_7_4",
+				"transform" : "translate(1588 1668) rotate(30)"
+			}, {
+				"id" : "hex_117_7_5",
+				"transform" : "translate(1852 1668) rotate(30)"
+			}, {
+				"id" : "hex_118_7_6",
+				"transform" : "translate(2116 1668) rotate(30)"
+			}, {
+				"id" : "hex_119_7_7",
+				"transform" : "translate(2380 1668) rotate(30)"
+			}, {
+				"id" : "hex_120_7_8",
+				"transform" : "translate(2644 1668) rotate(30)"
+			}, {
+				"id" : "hex_121_7_9",
+				"transform" : "translate(2908 1668) rotate(30)"
+			}, {
+				"id" : "hex_122_7_10",
+				"transform" : "translate(3172 1668) rotate(30)"
+			}, {
+				"id" : "hex_123_7_11",
+				"transform" : "translate(3436 1668) rotate(30)"
+			}, {
+				"id" : "hex_124_7_12",
+				"transform" : "translate(3700 1668) rotate(30)"
+			}, {
+				"id" : "hex_125_7_13",
+				"transform" : "translate(3964 1668) rotate(30)"
+			}, {
+				"id" : "hex_126_7_14",
+				"transform" : "translate(4228 1668) rotate(30)"
+			}, {
+				"id" : "hex_127_7_15",
+				"transform" : "translate(4492 1668) rotate(30)"
+			}, {
+				"id" : "hex_128_8_0",
+				"transform" : "translate(400 1892) rotate(30)"
+			}, {
+				"id" : "hex_129_8_1",
+				"transform" : "translate(664 1892) rotate(30)"
+			}, {
+				"id" : "hex_130_8_2",
+				"transform" : "translate(928 1892) rotate(30)"
+			}, {
+				"id" : "hex_131_8_3",
+				"transform" : "translate(1192 1892) rotate(30)"
+			}, {
+				"id" : "hex_132_8_4",
+				"transform" : "translate(1456 1892) rotate(30)"
+			}, {
+				"id" : "hex_133_8_5",
+				"transform" : "translate(1720 1892) rotate(30)"
+			}, {
+				"id" : "hex_134_8_6",
+				"transform" : "translate(1984 1892) rotate(30)"
+			}, {
+				"id" : "hex_135_8_7",
+				"transform" : "translate(2248 1892) rotate(30)"
+			}, {
+				"id" : "hex_136_8_8",
+				"transform" : "translate(2512 1892) rotate(30)"
+			}, {
+				"id" : "hex_137_8_9",
+				"transform" : "translate(2776 1892) rotate(30)"
+			}, {
+				"id" : "hex_138_8_10",
+				"transform" : "translate(3040 1892) rotate(30)"
+			}, {
+				"id" : "hex_139_8_11",
+				"transform" : "translate(3304 1892) rotate(30)"
+			}, {
+				"id" : "hex_140_8_12",
+				"transform" : "translate(3568 1892) rotate(30)"
+			}, {
+				"id" : "hex_141_8_13",
+				"transform" : "translate(3832 1892) rotate(30)"
+			}, {
+				"id" : "hex_142_8_14",
+				"transform" : "translate(4096 1892) rotate(30)"
+			}, {
+				"id" : "hex_143_8_15",
+				"transform" : "translate(4360 1892) rotate(30)"
+			}, {
+				"id" : "hex_144_9_0",
+				"transform" : "translate(532 2116) rotate(30)"
+			}, {
+				"id" : "hex_145_9_1",
+				"transform" : "translate(796 2116) rotate(30)"
+			}, {
+				"id" : "hex_146_9_2",
+				"transform" : "translate(1060 2116) rotate(30)"
+			}, {
+				"id" : "hex_147_9_3",
+				"transform" : "translate(1324 2116) rotate(30)"
+			}, {
+				"id" : "hex_148_9_4",
+				"transform" : "translate(1588 2116) rotate(30)"
+			}, {
+				"id" : "hex_149_9_5",
+				"transform" : "translate(1852 2116) rotate(30)"
+			}, {
+				"id" : "hex_150_9_6",
+				"transform" : "translate(2116 2116) rotate(30)"
+			}, {
+				"id" : "hex_151_9_7",
+				"transform" : "translate(2380 2116) rotate(30)"
+			}, {
+				"id" : "hex_152_9_8",
+				"transform" : "translate(2644 2116) rotate(30)"
+			}, {
+				"id" : "hex_153_9_9",
+				"transform" : "translate(2908 2116) rotate(30)"
+			}, {
+				"id" : "hex_154_9_10",
+				"transform" : "translate(3172 2116) rotate(30)"
+			}, {
+				"id" : "hex_155_9_11",
+				"transform" : "translate(3436 2116) rotate(30)"
+			}, {
+				"id" : "hex_156_9_12",
+				"transform" : "translate(3700 2116) rotate(30)"
+			}, {
+				"id" : "hex_157_9_13",
+				"transform" : "translate(3964 2116) rotate(30)"
+			}, {
+				"id" : "hex_158_9_14",
+				"transform" : "translate(4228 2116) rotate(30)"
+			}, {
+				"id" : "hex_159_9_15",
+				"transform" : "translate(4492 2116) rotate(30)"
+			}, {
+				"id" : "hex_160_10_0",
+				"transform" : "translate(400 2340) rotate(30)"
+			}, {
+				"id" : "hex_161_10_1",
+				"transform" : "translate(664 2340) rotate(30)"
+			}, {
+				"id" : "hex_162_10_2",
+				"transform" : "translate(928 2340) rotate(30)"
+			}, {
+				"id" : "hex_163_10_3",
+				"transform" : "translate(1192 2340) rotate(30)"
+			}, {
+				"id" : "hex_164_10_4",
+				"transform" : "translate(1456 2340) rotate(30)"
+			}, {
+				"id" : "hex_165_10_5",
+				"transform" : "translate(1720 2340) rotate(30)"
+			}, {
+				"id" : "hex_166_10_6",
+				"transform" : "translate(1984 2340) rotate(30)"
+			}, {
+				"id" : "hex_167_10_7",
+				"transform" : "translate(2248 2340) rotate(30)"
+			}, {
+				"id" : "hex_168_10_8",
+				"transform" : "translate(2512 2340) rotate(30)"
+			}, {
+				"id" : "hex_169_10_9",
+				"transform" : "translate(2776 2340) rotate(30)"
+			}, {
+				"id" : "hex_170_10_10",
+				"transform" : "translate(3040 2340) rotate(30)"
+			}, {
+				"id" : "hex_171_10_11",
+				"transform" : "translate(3304 2340) rotate(30)"
+			}, {
+				"id" : "hex_172_10_12",
+				"transform" : "translate(3568 2340) rotate(30)"
+			}, {
+				"id" : "hex_173_10_13",
+				"transform" : "translate(3832 2340) rotate(30)"
+			}, {
+				"id" : "hex_174_10_14",
+				"transform" : "translate(4096 2340) rotate(30)"
+			}, {
+				"id" : "hex_175_10_15",
+				"transform" : "translate(4360 2340) rotate(30)"
+			}, {
+				"id" : "hex_176_11_0",
+				"transform" : "translate(532 2564) rotate(30)"
+			}, {
+				"id" : "hex_177_11_1",
+				"transform" : "translate(796 2564) rotate(30)"
+			}, {
+				"id" : "hex_178_11_2",
+				"transform" : "translate(1060 2564) rotate(30)"
+			}, {
+				"id" : "hex_179_11_3",
+				"transform" : "translate(1324 2564) rotate(30)"
+			}, {
+				"id" : "hex_180_11_4",
+				"transform" : "translate(1588 2564) rotate(30)"
+			}, {
+				"id" : "hex_181_11_5",
+				"transform" : "translate(1852 2564) rotate(30)"
+			}, {
+				"id" : "hex_182_11_6",
+				"transform" : "translate(2116 2564) rotate(30)"
+			}, {
+				"id" : "hex_183_11_7",
+				"transform" : "translate(2380 2564) rotate(30)"
+			}, {
+				"id" : "hex_184_11_8",
+				"transform" : "translate(2644 2564) rotate(30)"
+			}, {
+				"id" : "hex_185_11_9",
+				"transform" : "translate(2908 2564) rotate(30)"
+			}, {
+				"id" : "hex_186_11_10",
+				"transform" : "translate(3172 2564) rotate(30)"
+			}, {
+				"id" : "hex_187_11_11",
+				"transform" : "translate(3436 2564) rotate(30)"
+			}, {
+				"id" : "hex_188_11_12",
+				"transform" : "translate(3700 2564) rotate(30)"
+			}, {
+				"id" : "hex_189_11_13",
+				"transform" : "translate(3964 2564) rotate(30)"
+			}, {
+				"id" : "hex_190_11_14",
+				"transform" : "translate(4228 2564) rotate(30)"
+			}, {
+				"id" : "hex_191_11_15",
+				"transform" : "translate(4492 2564) rotate(30)"
+			}]
+		}

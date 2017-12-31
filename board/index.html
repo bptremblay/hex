@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if lte IE 9]>
+<html class="ie" lang="en">
+<![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en" class="no-js cookie_used_true">
+<!--<![endif]-->
+
+<head>
+  <title>hex</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" media="all" href="./assets/css/index.css" />
+  <script src="./lib/jquery-1.9.0-min.js"></script>
+  <script src="./lib/snap.svg.mod.js"></script>
+  <script src="./js/index.js"></script>
+</head>
+
+<body>
+  <p>
+    Hex function.
+  </p>
+  <!-- <button id='test'>
+		test
+		</button> -->
+  <input id="play" class="radio" type="radio" name="mode" value="play" checked> Play
+  <br>
+  <input class="radio" type="radio" name="mode" value="design"> Design
+  <div id='info' style="width: 400px; height: 100px; border-style: solid; border-width: 1px;">
+    info here
+  </div>
+
+  <svg id="prototypes" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="300" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <polygon class="hex" id="hexProto" points="300,150 225,280 75,280 0,150 75,20 225,20" ></polygon>
+
+  </svg>
+
+  <svg id="color-fill" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="300" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+  </svg>
+
+</body>
+
+</html>
